@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Fashion | T-shirt</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">	
+	<style type="text/css"> 
+			text {
+    				font-weight: bold;
+    				color: blue;
+    			}
+    </style>
+</head>
+<body>
+	<a href="G:\weSell\fashion.html">
+		<img src="G:\weSell\logo\logo3.jpg">
+	</a> 
+
+	<center>
+	<table>
+		<tr>
+			<h2><img src="G:\weSell\fashion\gpu.jpg"></h2>	<!--chg-->
+		</tr>
+		<h>MSI GEFORCE® GTX 1080 TI</h>
+		<tr>
+			<td>
+			<ul>
+				<li>
+					1683 MHz / 1569 MHz (OC)
+				</li>
+				<li>
+					1657 MHz / 1544 MHz (Gaming) 
+				</li>
+				<li>
+					1582 MHz / 1480 MHz (Silent) 
+				</li>
+				<li>
+					Full coverage, dual cooling: featuring Corsair Hydro series H55 thermal design, efficient liquid cooling for the GPU and air cooling for the memory and VRMs.
+				</li>
+				<li>
+					Instant Performance Gain: Unlock extra performance or keep your card silent during light use in one click.
+				</li>
+				<li>
+					One Click To VR: A single click by setting all key components to high performance settings.
+				</li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<center><text>RM3999</text></center>		<!--chg-->
+				<br>
+				<a href="G:\weSell\computer.html">
+					<button>Back</button>
+				</a> 
+				<button>Buy Now</button> 
+			</td>
+		</tr>
+	</table>
+	</center>
+
+	<p>&copy; weSell 2017</p>
+</body>
+</html>

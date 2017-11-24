@@ -1,0 +1,38 @@
+tr {
+	text-align: center;
+}
+
+th a {
+	display: block;
+    width: 60px;
+}
+
+table {
+	background-color: white;
+}
+
+td img {
+	width: 304px;
+	height: 228px;
+}
+
+body {
+	background-image: url("G:\weSell/img/background2.jpg");
+}
+
+p {
+	text-align: right;
+}
+
+tr th {
+	font-family: sans-serif;
+}
+
+h {
+	font-size: 20;
+	font-weight: bold;
+}
+
+h1 {	
+	background-color: lightblue;
+}
