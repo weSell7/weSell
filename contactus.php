@@ -126,6 +126,6 @@
 		</div>
 	</form>
 	</center>
-
-</body>
+	<p>&copy; weSell 2017</p>
+	</body>
 </html>

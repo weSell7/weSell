@@ -63,7 +63,7 @@
 		</center><br>
 		<div align="center">
 			<input style="font-size: 25;" type="text" id="input" onkeyup="search()" placeholder="I'm looking for...">
-			<br>
+			<br><br>
 			<form method="POST" action="filter/filterMo.php">
 				<label style="font-size: 20	; font-weight: bold;">Sort by: </label>
 				<select name="option">
@@ -75,7 +75,6 @@
 				<input type="submit" name="submit" value="Sort">
 			</form>
 		</div>
-		<br><br>
 
 		<center><h1><text><text style='color: red;'> SALE!! Up to 30% Discount on selected products! </text></h1></center>;
 		
