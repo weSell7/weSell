@@ -16,7 +16,7 @@
 	<body>
 		
 		<!--add link into logo-->
-		<a href="computer.html">
+		<a href="homepage.php">
 			<img src="logo\logo3.jpg"> 
 		</a> 
 		
@@ -40,12 +40,12 @@
 		<!--menu box using table (internal css)-->
 		<table style="width: 80%;"> 
 			<tr style="background: lightblue;">
-				<th><a href="homepage.html">Homepage</a></th>
-				<th><a href="computer.html">Computer Components</a></th>
-				<th><a href="fashion.html">Fashions</a></th>
-				<th><a href="kitchen.html">Kitchen</a></th>
-				<th><a href="phone.html">Mobile</a></th>
-				<th><a href="contactus.html">Contact Us</a></th>
+				<th><a href="homepage.php">Homepage</a></th>
+				<th><a href="computer.php">Computer Components</a></th>
+				<th><a href="fashion.php">Fashions</a></th>
+				<th><a href="kitchen.php">Kitchen</a></th>
+				<th><a href="phone.php">Mobile</a></th>
+				<th><a href="contactus.php">Contact Us</a></th>
 			</tr>
 		</table>
 		

@@ -21,7 +21,7 @@
 		echo "Wrong username or password!";
 	}else{
 		//echo "You have been successfully logged in!";
-		header("Location: ..\computer.html");
+		header("Location: ..\computer.php");
 	}
 
 ?>

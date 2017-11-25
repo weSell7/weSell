@@ -35,9 +35,9 @@
 	$result = mysqli_query($db,$sql);
 
 	if(!$result){
-		echo "nope!";
+		echo "Not complete";
 	}else{
-		header("Location: ..\homepage.html");
+		header("Location: ..\homepage.php");
 	}
 
 ?>

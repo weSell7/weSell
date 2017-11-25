@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>weSell | Phone</title>
+	<title>weSell | Kitchen</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<style type="text/css"> 
 			text {
@@ -32,14 +32,14 @@
           		} 
         	}
     	}
-    </script>
+    	</script>
 </head>
 <body>
-	<a href="homepage.html">
+	<a href="homepage.php">
 			<img src="logo\logo3.jpg">
 		</a> 
 
-		<center><h1>Phone</h1></center>
+		<center><h1>Kitchen</h1></center>
 
 		<p style="background: lightblue;">
 			<script type="text/javascript" style="background: white;"> 
@@ -52,20 +52,19 @@
 		<center>
 		<table style="width: 80%;"> <!--menu box using table (internal css)-->
 			<tr style="background: lightblue;">
-				<th><a href="homepage.html">Homepage</a></th>
-				<th><a href="computer.html">Computer Components</a></th>
-				<th><a href="fashion.html">Fashions</a></th>
-				<th><a href="kitchen.html">Kitchen</a></th>
-				<th><a href="phone.html">Mobile</a></th>
-				<th><a href="contactus.html">Contact Us</a></th>
+				<th><a href="homepage.php">Homepage</a></th>
+				<th><a href="computer.php">Computer Components</a></th>
+				<th><a href="fashion.php">Fashions</a></th>
+				<th><a href="kitchen.php">Kitchen</a></th>
+				<th><a href="phone.php">Mobile</a></th>
+				<th><a href="contactus.php">Contact Us</a></th>
 			</tr>
-		</table>
-		</center><br>
+		</table></center><br>
 		<div align="center">
 			<label style="font-size: 20; font-weight: bold;">Search: </label>
 			<input type="text" id="input" onkeyup="search()" placeholder="Search for product..">
 			<br>
-			<form method="POST" action="filterMo.php">
+			<form method="POST" action="filterKi.php">
 				<label style="font-size: 20; font-weight: bold;">Filter: </label>
 				<select name="option">
 					<option value="0"></option>
@@ -84,20 +83,140 @@
 			<table id="table1" style="border: solid; width: 80%; height: 70%;">
 							<tr class="a">
 				<td>
-					<a href="linkmobile\honor5c.html"><img src="mobile\honor5c.jpg"></a>
-						<a href="linkmobile\honor5c.html"><br>Honor5C</a><br>
-						<text>RM799</text><br><br>
-						<button>Add to Cart</button> <button>Buy Now</button>
+					<a href="Ktchen\refrigerator.html">
+						<img src="Kitchen\refrigerator.jpg"></a>
+					<a href="Ktchen\refrigerator.html"><br>
+					Panasonic 210L-2Door Top Freezer Fridge</a><br>
+					<text><strike> RM1099.00 </strike></text> <script type="text/javascript">
+							var a = 1099;
+							var b = 0.85;
 
+							document.write("<text style='color: red;'>15% OFF! RM " + discount(a,b) + "</text>");
+
+							function discount(x,y){
+  								return Math.round(x*y);
+  							}
+						</script></text>
+						<br><br>
+					<button>Add to Cart</button> <button>Buy Now</button>
 				</td>
 			</tr>
 
 			<tr class="a">
 				<td>
-					<a href="linkmobile\oneplus.html"><img src="mobile\oneplus.jpg"></a>
-						<a href="linkmobile\oneplus.html"><br>OnePlus 3T</a><br>
-						<text><strike> RM2229 </strike></text> <script type="text/javascript">
-							var a = 2229;
+					<a href="Ktchen\microwave.html">
+							<img src="Kitchen\microwave.jpg"></a>
+						<a href="Ktchen\microwave.html"><br>
+						Sharp Microwave R202Zs</a><br>
+						<text>RM199.00 </text><br><br>
+						<button>Add to Cart</button> <button>Buy Now</button>
+					
+				</td>
+			</tr>
+
+			<tr class="a">
+				<td>
+					<a href="Ktchen\rice cooker.html">
+							<img src="Kitchen\rice cooker.jpg"></a>
+						<a href="Ktchen\rice cooker.html"><br>
+						KHIND RC918 1.8L RICE COOKER</a><br>
+						<text>RM92.00</text><br><br>
+						<button>Add to Cart</button> <button>Buy Now</button>
+					
+				</td>
+			</tr>
+
+			<tr class="a">
+				<td>
+					<a href="Ktchen\blender.html"><img src="Kitchen\blender.jpg"></a>
+						<a href="Ktchen\blender.html"><br>
+						Sharp Personal Blender</a><br>
+						<text>RM87.00</text><br><br>
+						<button>Add to Cart</button> <button>Buy Now</button>
+					
+				</td>
+			</tr>
+
+			<tr class="a">
+				<td>
+					<a href="Ktchen\jugkettle.html"><img src="Kitchen\jugkettle.jpg"></a>
+						<a href="Ktchen\jugkettle.html"><br>PHILIPS HD9303 JUG KETTLE 1.2L</a><br>
+						<text><strike>RM89.99</strike></text> <script type="text/javascript">
+							var a = 89.99;
+							var b = 0.90;
+
+							document.write("<text style='color: red;'>10% OFF! RM " + discount(a,b) + "</text>");
+
+							function discount(x,y){
+  								return Math.round(x*y);
+  							}
+
+							
+						</script></text>
+						<br><br>
+						<button>Add to Cart</button> <button>Buy Now</button>
+					
+				</td>
+			</tr>
+
+			<tr class="a">
+				<td>
+					<a href="Ktchen\tefal.html"><img src="Kitchen\tefal.jpg"></a>
+						<a href="Ktchen\tefal.html"><br>Tefal Super Cook Wokpan 28cm + Lid</a><br>
+						<text>RM115</text><br><br>
+						<button>Add to Cart</button> <button>Buy Now</button>
+					
+				</td>
+			</tr>
+
+			<tr class="a">
+				<td>
+					<a href="Ktchen\tableware.html"><img src="Kitchen\tw.jpg"></a>
+						<a href="Ktchen\tableware.html"><br>SOKANO Exclusive Premium</a><br>
+						<text>RM47.90</text><br><br>
+						<button>Add to Cart</button> <button>Buy Now</button>
+					
+				</td>
+			</tr>
+
+			<tr class="a">
+				<td>
+					<a href="Ktchen\dish drainer.html"><img src="Kitchen\dish drainer.jpg"></a>
+						<a href="Ktchen\dish drainer.html"><br>S Shape Dish Drain (2Layer)</a><br>
+						<text><strike>RM21.00</strike></text> <script type="text/javascript">
+							var a = 21;
+							var b = 0.95;
+
+							document.write("<text style='color: red;'>5% OFF! RM " + discount(a,b) + "</text>");
+
+							function discount(x,y){
+  								return Math.round(x*y);
+  							}
+
+							
+						</script></text>
+						<br><br>
+						<button>Add to Cart</button> <button>Buy Now</button>
+					
+				</td>
+			</tr>
+
+			<tr class="a">
+				<td>
+					<a href="Ktchen\stove.html"><img src="Kitchen\gasstove.jpg"></a>
+						<a href="Ktchen\stove.html"><br>MORGAN Glass Gas Stove MGS-8312G (Black)</a><br>
+						<text>RM159.00</text><br><br>
+						<button>Add to Cart</button> <button>Buy Now</button>
+					
+				</td>
+			</tr>
+
+			<tr class="a">
+				<td>
+					<a href="Ktchen\juicer.html"><img src="Kitchen\juicer.jpg"></a>
+						<a href="Ktchen\juicer.html"><br>PENSONIC JUICER PJ37</a><br>
+						<text><strike>RM107.00</strike></text> <script type="text/javascript">
+							var a = 107;
 							var b = 0.85;
 
 							document.write("<text style='color: red;'>15% OFF! RM " + discount(a,b) + "</text>");
@@ -113,125 +232,8 @@
 					
 				</td>
 			</tr>
-
-			<tr class="a">
-				<td>
-					<a href="linkmobile\A5.html"><img src="mobile\A5.jpg"></a>
-						<a href="linkmobile\A5.html"><br>Samsung A5</a><br>
-						<text>RM1599</text><br><br>
-						<button>Add to Cart</button> <button>Buy Now</button>
-					
-				</td>
-			</tr>
-
-			<tr class="a">
-				<td>
-					<a href="linkmobile\vivoy66.html"><img src="mobile\vivoy66.jpg"></a>
-						<a href="linkmobile\vivoy66.html"><br>Vivo Y66</a><br>
-						<text>RM999</text><br><br>
-						<button>Add to Cart</button> <button>Buy Now</button>
-					
-				</td>
-			</tr>
-
-			<tr class="a">
-				<td>
-					<a href="linkmobile\iphone7.html"><img src="mobile\iphone7.jpg"></a>
-						<a href="linkmobile\iphone7.html"><br>iphone7</a><br>
-						<text><strike> RM2888 </strike></text> <script type="text/javascript">
-							var a = 2888;
-							var b = 0.95;
-
-							document.write("<text style='color: red;'>5% OFF! RM " + discount(a,b) + "</text>");
-
-							function discount(x,y){
-  								return Math.round(x*y);
-  							}
-  							</script></text>
-						<br><br>
-						<button>Add to Cart</button> <button>Buy Now</button>
-					
-				</td>
-			</tr>
-
-			<tr class="a">
-				<td>
-					<a href="linkmobile\m8.html"><img src="mobile\m8.jpg"></a>
-						<a href="linkmobile\m8.html"><br>HTC One M8</a><br>
-						<text>RM820</text><br><br>
-						<button>Add to Cart</button> <button>Buy Now</button>
-					
-				</td>
-			</tr>
-
-			<tr class="a">
-				<td>
-					<a href="linkmobile\Z5.html"><img src="mobile\Z5.jpg"></a>
-						<a href="linkmobile\Z5.html"><br>Sony Xperia Z5</a><br>
-						<text><strike> RM1239 </strike></text> <script type="text/javascript">
-							var a = 1239;
-							var b = 0.75;
-
-							document.write("<text style='color: red;'>25% OFF! RM " + discount(a,b) + "</text>");
-
-							function discount(x,y){
-  								return Math.round(x*y);
-  							}
-
-							
-						</script></text>
-						<br><br>
-						<button>Add to Cart</button> <button>Buy Now</button>
-					
-				</td>
-			</tr>
-
-			<tr class="a">
-				<td>
-					<a href="linkmobile\yotaphone.html"><img src="mobile\yotaphone.jpg"></a>
-						<a href="linkmobile\yotaphone.html"><br>Yotaphone 2</a><br>
-						<text><strike> RM763 </strike></text> <script type="text/javascript">
-							var a = 763;
-							var b = 0.70;
-
-							document.write("<text style='color: red;'>30% OFF! RM " + discount(a,b) + "</text>");
-
-							function discount(x,y){
-  								return Math.round(x*y);
-  							}
-
-							
-						</script></text>
-						<br><br>
-						<button>Add to Cart</button> <button>Buy Now</button>
-					
-				</td>
-			</tr>
-
-			<tr class="a">
-				<td>
-					<a href="linkmobile\mbi.html"><img src="mobile\mbi.jpg"></a>
-						<a href="linkmobile\mbi.html"><br>MBI i7</a><br>
-						<text>RM499</text><br><br>
-						<button>Add to Cart</button> <button>Buy Now</button>
-					
-				</td>
-			</tr>
-
-			<tr class="a">
-				<td>
-					<a href="linkmobile\nokia.html"><img src="mobile\nokia.jpg">
-						</a>
-						<a href="linkmobile\nokia.html"><br>Nokia 6500</a><br>
-						<text>RM220</text><br><br>
-						<button>Add to Cart</button> <button>Buy Now</button>
-					
-				</td>
-			</tr>
-				
 			</table>
 		</center> <br>
-		
-	<p>&copy; weSell 2017</p>	
-</body>
+		<p>&copy; weSell 2017</p>
+	</body>
 </html>
