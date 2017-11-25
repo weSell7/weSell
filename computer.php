@@ -38,7 +38,7 @@
     	}
     	</script>
 	</head>
-	<body>
+	<body style="background-image: url('img/background2.jpg');">
 
 		<!--add link into logo-->
 		<a href="homepage.php">
@@ -73,27 +73,25 @@
 		
 		<!--Textbox for search()-->
 		<div align="center">
-			<label style="font-size: 20; font-weight: bold;">Search: </label>
-			<input type="text" id="input" onkeyup="search()" placeholder="Search for product..">
-			<br>
+			<!--label style="font-size: 20; font-weight: bold;">Search: </label-->
+			<input style="font-size: 25;" type="text" id="input" onkeyup="search()" placeholder="I'm looking for...">
+			<br><br>
 			<form method="POST" action="filter/filterCom.php">
-				<label style="font-size: 20; font-weight: bold;">Filter: </label>
+				<label style="font-size: 20	; font-weight: bold;">Sort by: </label>
 				<select name="option">
-					<option value="0"></option>
+					<option value="0">Relevance</option>
 					<option name=option1 value="1">Discount</option>
-					<option name=option2 value="2">Low to High</option>
-					<option name=option3 value="3">High to Low</option>
+					<option name=option2 value="2">Price: Low to High</option>
+					<option name=option3 value="3">Price: High to Low</option>
 				</select>
-				<input type="submit" name="submit" value="Filter">
+				<input type="submit" name="submit" value="Sort">
 			</form>
+
 		</div>
 
-
-
-		<br><br>
 		<center><h1><text><text style='color: red;'> SALE!! Up to 30% Discount on selected products! </text></h1></center>;
 		<center>
-			<table id="table1" style="border: solid; width: 90%; height: 70%;" >
+			<table id="table1" style="border: solid; width: 75%; height: 70%;" >
 				
 				<tr class="a"><td><a href="cc\gpu.html"><img src="computer\gpu.jpg"></a>
 						<a href="cc\gpu.html"><br>MSI GEFORCE® GTX 1080 TI</a><br>

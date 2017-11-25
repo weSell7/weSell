@@ -34,7 +34,7 @@
     	}
     	</script>
 </head>
-<body>
+<body style="background-image: url('img/background2.jpg');">
 		<!--add link into logo-->
 		<a href="homepage.php">
 			<img src="logo\logo3.jpg">

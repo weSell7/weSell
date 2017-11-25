@@ -13,7 +13,7 @@
     			}
     	</style>
 	</head>
-	<body>
+	<body style="background-image: url('img/background2.jpg');">
 		
 		<!--add link into logo-->
 		<a href="homepage.php">
@@ -186,12 +186,7 @@ function showSlides() {
 			</table>
 		</div>
 		</center>
-		
 
-		
-		<center>
-			
-		</center> <br>
 		<p>&copy; weSell 2017</p>
 	</body>
 </html>

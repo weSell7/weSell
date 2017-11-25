@@ -47,7 +47,7 @@
 	}		
 </script>
 </head>
-<body>
+<body style="background-image: url('img/background2.jpg');">
 	<!--add link into logo-->
 		<a href="homepage.php">
 			<img src="logo\logo3.jpg">
@@ -78,6 +78,8 @@
 		</table>
 		</center><br><br>
 
+<div style="background-color: lightblue;">		
+
 	<label style="font-weight: bold; font-size: 20;">HQ Location Address:</label><br><br>
 	<label>weSell Group</label><br>
 	<label>Jalan Tuaran,</label><br>
@@ -91,7 +93,7 @@
 	<label>Tel: 010-5661553 / 013-8773991</label><br>
 	<label>Email: max@wesell.com.my / carl@wesell.com.my</label>
 
-
+</div>
 
 	
 	<h1>Customer Care: </h1>
