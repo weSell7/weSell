@@ -8,7 +8,7 @@
 	}
 
 	if($option==0){
-		header("Location: phone.php");
+		header("Location: ../phone.php");
 	}
 
 	else if($option==1){
@@ -18,7 +18,7 @@
 	$result = mysqli_query($db,$sql);
 
 	if($result->num_rows){
-		echo "<center><a href='phone.php'><button>Back</button></a>";
+		echo "<center><a href='../phone.php'><button>Back</button></a>";
 		echo "<h1>List of Discount Items: </h1>";
 		echo "<table width='50%' height='30%' border='1'><tr>
 		<th>No.</th>
@@ -38,7 +38,7 @@
 	$result = mysqli_query($db,$sql);
 
 	if($result->num_rows){
-		echo "<center><a href='phone.php'><button>Back</button></a>";
+		echo "<center><a href='../phone.php'><button>Back</button></a>";
 		echo "<h1>Price from Low to High: </h1>";
 		echo "<table width='50%' height='30%' border='1'><tr>
 		<th>No.</th>
@@ -59,7 +59,7 @@
 	$result = mysqli_query($db,$sql);
 
 	if($result->num_rows){
-		echo "<center><a href='phone.php'><button>Back</button></a>";
+		echo "<center><a href='../phone.php'><button>Back</button></a>";
 		echo "<h1>Price from High to Low: </h1>";
 		echo "<table width='50%' height='30%' border='1'><tr>
 		<th>No.</th>

@@ -64,7 +64,7 @@
 			<label style="font-size: 20; font-weight: bold;">Search: </label>
 			<input type="text" id="input" onkeyup="search()" placeholder="Search for product..">
 			<br>
-			<form method="POST" action="filterKi.php">
+			<form method="POST" action="filter/filterKi.php">
 				<label style="font-size: 20; font-weight: bold;">Filter: </label>
 				<select name="option">
 					<option value="0"></option>
