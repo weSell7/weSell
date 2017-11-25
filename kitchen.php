@@ -61,18 +61,17 @@
 			</tr>
 		</table></center><br>
 		<div align="center">
-			<label style="font-size: 20; font-weight: bold;">Search: </label>
-			<input type="text" id="input" onkeyup="search()" placeholder="Search for product..">
+			<input style="font-size: 25;" type="text" id="input" onkeyup="search()" placeholder="I'm looking for...">
 			<br>
 			<form method="POST" action="filter/filterKi.php">
-				<label style="font-size: 20; font-weight: bold;">Filter: </label>
+				<label style="font-size: 20	; font-weight: bold;">Sort by: </label>
 				<select name="option">
-					<option value="0"></option>
+					<option value="0">Relevance</option>
 					<option name=option1 value="1">Discount</option>
-					<option name=option2 value="2">Low to High</option>
-					<option name=option3 value="3">High to Low</option>
+					<option name=option2 value="2">Price: Low to High</option>
+					<option name=option3 value="3">Price: High to Low</option>
 				</select>
-				<input type="submit" name="submit" value="Filter">
+				<input type="submit" name="submit" value="Sort">
 			</form>
 		</div>
 		<br><br>
