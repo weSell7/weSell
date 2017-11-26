@@ -34,8 +34,8 @@
 				echo $_SESSION['name'];
 				echo "<label>. Click here to <a href='includes/logout.php'>Logout</a></label>";
 			}else{
-				echo "<div align='right'><p><h5><a style='text-decoration: none;' href = 'login\login.html'>Login</a> or 
-					<a style='text-decoration: none;' href = 'register/register.html'>Sign Up</a></h5></p></div>";
+				echo "<div align='right'><p><h5><a style='text-decoration: none;' href = 'login\loginform.php'>Login</a> or 
+					<a style='text-decoration: none;' href = 'register/registerform.php'>Sign Up</a></h5></p></div>";
 			}
 		?>
 		</p>
