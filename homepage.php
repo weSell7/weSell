@@ -27,15 +27,15 @@
 		<center><h1>Welcome To weSell</h1></center>
 
 		
-		<p>
+		<p style="background: lightblue;">
 		<?php
 			if(isset($_SESSION['name'])){
 				echo "Hello, ";
 				echo $_SESSION['name'];
-				echo "<label>. Click here to <a href='logout.php' action='logout.php' method='POST'>Logout</a></label>";
+				echo "<label>. Click here to <a href='includes/logout.php'>Logout</a></label>";
 			}else{
 				echo "<div align='right'><p><h5><a style='text-decoration: none;' href = 'login\login.html'>Login</a> or 
-					<a style='text-decoration: none;' href = 'register\register.html'>Sign Up</a></h5></p></div>";
+					<a style='text-decoration: none;' href = 'register/register.html'>Sign Up</a></h5></p></div>";
 			}
 		?>
 		</p>

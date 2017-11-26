@@ -58,12 +58,12 @@
 
 		<center><h1>Contact Us</h1></center>
 
-		<p>
+		<p style="background: lightblue;">
 			<?php 
 				if(isset($_SESSION['name'])){
 					echo "Hello, ";
 					echo $_SESSION['name'];
-					echo "<label>. Click here to <a href='logout.php' action='logout.php' method='POST'>Logout</a> </label>";	
+					echo "<label>. Click here to <a href='includes/logout.php'>Logout</a> </label>";	
 				} 
 			?>	
 		</p>

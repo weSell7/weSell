@@ -46,12 +46,12 @@
 
 		<center><h1>Fashion</h1></center>
 		
-		<p>
+		<p style="background: lightblue;">
 			<?php 
 				if(isset($_SESSION['name'])){
 					echo "Hello, ";
 					echo $_SESSION['name'];
-					echo "<label>. Click here to <a href='logout.php' action='logout.php' method='POST'>Logout</a> </label>";	
+					echo "<label>. Click here to <a href='includes/logout.php'>Logout</a> </label>";	
 				} 
 			?>	
 		</p>
@@ -79,7 +79,7 @@
 		<div align="center">
 			<input style="font-size: 25;" type="text" id="input" onkeyup="search()" placeholder="I'm looking for...">
 			<br><br>
-			<form method="POST" action="filter/filterFa.php">
+			<form method="POST" action="includes/filterFa.php">
 				<label style="font-size: 20	; font-weight: bold;">Sort by: </label>
 				<select name="option">
 					<option value="0">Relevance</option>
