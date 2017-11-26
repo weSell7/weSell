@@ -24,8 +24,8 @@
 
 		<!--show the current date and time-->
 		<div align="right">
-		<p><h5><a href = "login\login.html">LOGIN</a></text>
-		<a href = "register\register.html">REGISTER</a></text></h5></p>
+		<p><h5><a style="text-decoration: none;" href = "login\login.html">Login</a></text> or 
+		<a style="text-decoration: none;" href = "register\register.html">Sign Up</a></text></h5></p>
 		<p style="background: lightblue;">
 		<script type="text/javascript" style="background: white;"> 
 			var date = new Date();
