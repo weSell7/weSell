@@ -21,7 +21,8 @@
 		echo "Wrong username or password!";
 	}else{
 		//echo "You have been successfully logged in!";
-		header("Location: ..\computer.php");
+		$_SESSION['name'] = $row['name'];
+		header("Location: ..\homepage.php");
 	}
 
 ?>

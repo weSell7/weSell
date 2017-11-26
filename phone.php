@@ -1,3 +1,6 @@
+<?php 
+	session_start();
+?>
 <html>
 <head>
 	<title>weSell | Phone</title>
@@ -40,6 +43,16 @@
 		</a> 
 
 		<center><h1>Phone</h1></center>
+
+		<p>
+			<?php 
+				if(isset($_SESSION['name'])){
+					echo "Hello, ";
+					echo $_SESSION['name'];
+					echo "<label>. Click here to <a href='logout.php' action='logout.php' method='POST'>Logout</a> </label>";	
+				} 
+			?>	
+		</p>
 
 		<p style="background: lightblue;">
 			<script type="text/javascript" style="background: white;"> 

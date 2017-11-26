@@ -1,3 +1,6 @@
+<?php 
+	session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -53,7 +56,17 @@
 			<img src="logo\logo3.jpg">
 		</a> 
 
-		<center><h1>Computer Components</h1></center>
+		<center><h1>Contact Us</h1></center>
+
+		<p>
+			<?php 
+				if(isset($_SESSION['name'])){
+					echo "Hello, ";
+					echo $_SESSION['name'];
+					echo "<label>. Click here to <a href='logout.php' action='logout.php' method='POST'>Logout</a> </label>";	
+				} 
+			?>	
+		</p>
 
 		<!--show the current date and time-->
 		<p style="background: lightblue;">

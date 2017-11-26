@@ -1,3 +1,7 @@
+<?php 
+	session_start();
+?>
+
 <html>
 	<head>
 		<title>WELCOME to weSell</title>
@@ -22,18 +26,35 @@
 		
 		<center><h1>Welcome To weSell</h1></center>
 
+		
+		<p>
+		<?php
+			if(isset($_SESSION['name'])){
+				echo "Hello, ";
+				echo $_SESSION['name'];
+				echo "<label>. Click here to <a href='logout.php' action='logout.php' method='POST'>Logout</a></label>";
+			}else{
+				echo "<div align='right'><p><h5><a style='text-decoration: none;' href = 'login\login.html'>Login</a> or 
+					<a style='text-decoration: none;' href = 'register\register.html'>Sign Up</a></h5></p></div>";
+			}
+		?>
+		</p>
+
+		<!--
+		<p><h5><a style="text-decoration: none;" href = "login\login.html">Login</a> or 
+		<a style="text-decoration: none;" href = "register\register.html">Sign Up</a></h5></p>
+		-->
 		<!--show the current date and time-->
 		<div align="right">
-		<p><h5><a style="text-decoration: none;" href = "login\login.html">Login</a></text> or 
-		<a style="text-decoration: none;" href = "register\register.html">Sign Up</a></text></h5></p>
+
 		<p style="background: lightblue;">
 		<script type="text/javascript" style="background: white;"> 
 			var date = new Date();
 			document.writeln(date.toDateString());
 		</script>
+		</p>
 		</div>
 		
-		</p>
 
 		<br>
 		<center>
