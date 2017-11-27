@@ -50,6 +50,7 @@
 		<p><h5><a style="text-decoration: none;" href = "login\login.html">Login</a> or 
 		<a style="text-decoration: none;" href = "register\register.html">Sign Up</a></h5></p>
 		-->
+
 		<!--show the current date and time-->
 		<div align="right">
 
@@ -68,7 +69,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">weSell</a>
+                <a class="navbar-brand" href="#"><label style="font-size: 50px;">weSell</label></a>
             </div>
             <ul class="nav navbar-nav">
                 <li class="active"><a href="homepage.php">Home</a></li>
