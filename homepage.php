@@ -1,10 +1,15 @@
 <?php 
 	session_start();
 ?>
-
-<html>
+<!DOCTYPE html>
+<html lang = " en ">
 	<head>
 		<title>WELCOME to weSell</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 		<!--external css-->
 		<link rel="stylesheet" type="text/css" href="styles.css">	
@@ -28,7 +33,7 @@
 
 		
 		<p style="background: lightblue;">
-		<?php
+		<!--?php
 			if(isset($_SESSION['name'])){
 				echo "Hello, ";
 				echo $_SESSION['name'];
@@ -37,7 +42,7 @@
 				echo "<div align='right'><p><h5><a style='text-decoration: none;' href = 'login\loginform.php'>Login</a> or 
 					<a style='text-decoration: none;' href = 'register/registerform.php'>Sign Up</a></h5></p></div>";
 			}
-		?>
+		?-->
 		</p>
 
 		<!--
@@ -58,18 +63,38 @@
 
 		<br>
 		<center>
-		<!--menu box using table (internal css)-->
-		<table style="width: 80%;"> 
-			<tr style="background: lightblue;">
-				<th><a href="homepage.php">Homepage</a></th>
-				<th><a href="computer.php">Computer Components</a></th>
-				<th><a href="fashion.php">Fashions</a></th>
-				<th><a href="kitchen.php">Kitchen</a></th>
-				<th><a href="phone.php">Mobile</a></th>
-				<th><a href="contactus.php">Contact Us</a></th>
-			</tr>
-		</table>
-		
+            
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">weSell</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="homepage.php">Home</a></li>
+                <li><a href="computer.php">Computer Components</a></li>
+                <li><a href="fashion.php">Fashions</a></li>
+                <li><a href="kitchen.php">Kitchen</a></li>
+                <li><a href="phone.php">Mobile</a></li>
+                <li><a href="contactus.php">Contact Us</a></li>
+            </ul>
+                
+            <ul class="nav navbar-nav navbar-right">
+                <?php 
+                
+                    if(isset($_SESSION['name'])){
+                        echo "<li>Hello, ";
+				        echo $_SESSION['name']."</li>";
+                        
+                    }else{
+                        echo "<li><a href='register/registerform.php'><span class='glyphicon glyphicon-user'></span> Sign Up</a></li>
+                            <li><a href='login/loginform.php'><span class='glyphicon glyphicon-log-in'></span> Login</a></li>";
+                    }
+                
+                ?>
+            </ul>
+            </div>
+        </nav>
+  		
 		<br>
 		
 		</center>
