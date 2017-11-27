@@ -24,7 +24,7 @@
 			<img src="logo\logo3.jpg"> 
 		</a> 
 		
-		<center><h1>Welcome To weSell</h1></center>
+		<center><h1>weSell</h1></center>
 
 		
 		<p style="background: lightblue;">
