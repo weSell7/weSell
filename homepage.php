@@ -91,16 +91,13 @@
                         echo "<li><a href='register/registerform.php'><span class='glyphicon glyphicon-user'></span> Sign Up</a></li>
                             <li><a href='login/loginform.php'><span class='glyphicon glyphicon-log-in'></span> Login</a></li>";
                     }
-                
                 ?>
             </ul>
             </div>
         </nav>
   		
 		<br>
-		
 		</center>
-		<br><br><br> 
 		
 		<!-- Add Slideshow-->
 		<div align="left">
