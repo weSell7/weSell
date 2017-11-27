@@ -25,9 +25,10 @@
 	<body style="background-image: url('img/background2.jpg');">
 		
 		<!--add link into logo-->
-		<a href="homepage.php">
+		<!--a href="homepage.php">
 			<img src="logo\logo3.jpg"> 
-		</a> 
+		</a-->
+        <br><br>
 		
 		<center><h1>Welcome To weSell</h1></center>
 
@@ -64,7 +65,7 @@
 		<br>
 		<center>
             
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">weSell</a>
