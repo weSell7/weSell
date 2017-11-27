@@ -4,7 +4,7 @@
 
 <html>
 	<head>
-		<title>weSell</title>
+		<title>WELCOME to weSell</title>
 
 		<!--external css-->
 		<link rel="stylesheet" type="text/css" href="styles.css">	
