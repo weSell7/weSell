@@ -24,32 +24,15 @@
 	</head>
 	<body style="background-image: url('img/background2.jpg');">
 		
-		<!--add link into logo-->
-		<!--a href="homepage.php">
-			<img src="logo\logo3.jpg"> 
-		</a-->
+		
         <br><br>
 		
 		<center><h1>Welcome To weSell</h1></center>
 
 		
 		<p style="background: lightblue;">
-		<!--?php
-			if(isset($_SESSION['name'])){
-				echo "Hello, ";
-				echo $_SESSION['name'];
-				echo "<label>. Click here to <a href='includes/logout.php'>Logout</a></label>";
-			}else{
-				echo "<div align='right'><p><h5><a style='text-decoration: none;' href = 'login\loginform.php'>Login</a> or 
-					<a style='text-decoration: none;' href = 'register/registerform.php'>Sign Up</a></h5></p></div>";
-			}
-		?-->
+		
 		</p>
-
-		<!--
-		<p><h5><a style="text-decoration: none;" href = "login\login.html">Login</a> or 
-		<a style="text-decoration: none;" href = "register\register.html">Sign Up</a></h5></p>
-		-->
 
 		<!--show the current date and time-->
 		<div align="right">
@@ -71,6 +54,7 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="#"><label style="font-size: 50px;">weSell</label></a>
             </div>
+            
             <ul class="nav navbar-nav">
                 <li class="active"><a href="homepage.php">Home</a></li>
                 <li><a href="computer.php">Computer Components</a></li>
@@ -228,9 +212,7 @@ function showSlides() {
 <h5 class="unit-subheader">weSell online shop offers you variety of choices from fashion to computer equipment that will satisfy your needs without hurting your wallet. We never compromise the quality of the products because we make sure the suppliers are from trusted stores. </h5>				
 					</td>
 				</tr>
-			</table>
-		</div>
-		</center>
+            </table></center></div>
 
 		<p>&copy; weSell 2017</p>
 	</body>
