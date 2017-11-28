@@ -94,8 +94,8 @@
 		    </div>
             <ul class="nav navbar-nav ">
             <ul class="nav nav-tabs nav-justified">
-                <li class="active"><a href="homepage.php">Home</a></li>
-                <li><a href="computer.php">Computer Components</a></li>
+                <li><a href="homepage.php">Home</a></li>
+                <li class="active"><a href="computer.php">Computer Components</a></li>
                 <li><a href="fashion.php">Fashions</a></li>
                 <li><a href="kitchen.php">Kitchen</a></li>
                 <li><a href="phone.php">Mobile</a></li>
