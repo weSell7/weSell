@@ -59,13 +59,6 @@
 			?>	
 		</p>
 
-		<p style="background: lightblue;">
-			<script type="text/javascript" style="background: white;"> 
-				var date = new Date();
-				document.writeln(date.toDateString());
-			</script>
-		</p>
-
 		<br>
 		<center>
             <nav class="navbar navbar-inverse navbar-fixed-top">

@@ -33,19 +33,7 @@
 		<p style="background: lightblue;">
 		
 		</p>
-
-		<!--show the current date and time-->
-		<div align="right">
-
-		<p style="background: lightblue;"><br><br>
-		<script type="text/javascript" style="background: white;"> 
-			var date = new Date();
-			document.writeln(date.toDateString());
-		</script>
-		</p>
-		</div>
 		
-
 		<br>
 		<center>
             
