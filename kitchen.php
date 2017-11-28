@@ -3,6 +3,11 @@
 ?>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 	<title>weSell | Kitchen</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<style type="text/css"> 
@@ -63,16 +68,43 @@
 
 		<br>
 		<center>
-		<table style="width: 80%;"> <!--menu box using table (internal css)-->
-			<tr style="background: lightblue;">
-				<th><a href="homepage.php">Homepage</a></th>
-				<th><a href="computer.php">Computer Components</a></th>
-				<th><a href="fashion.php">Fashions</a></th>
-				<th><a href="kitchen.php">Kitchen</a></th>
-				<th><a href="phone.php">Mobile</a></th>
-				<th><a href="contactus.php">Contact Us</a></th>
-			</tr>
-		</table></center><br>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><label style="font-size: 50px;">weSell</label></a>
+            </div>
+            <div align="right">
+		        <script type="text/javascript"> 
+                    var date = new Date();
+                    document.writeln(date.toDateString());
+		        </script>
+		    </div>
+            <ul class="nav navbar-nav ">
+            <ul class="nav nav-tabs nav-justified">
+                <li><a href="homepage.php">Home</a></li>
+                <li><a href="computer.php">Computer Components</a></li>
+                <li><a href="fashion.php">Fashions</a></li>
+                <li class="active"><a href="kitchen.php">Kitchen</a></li>
+                <li><a href="phone.php">Mobile</a></li>
+                <li><a href="contactus.php">Contact Us</a></li>
+            </ul>
+            </ul>    
+            <ul class="nav navbar-nav navbar-right">
+                <?php 
+                
+                    if(isset($_SESSION['name'])){
+                        echo "<li>Hello, ";
+				        echo $_SESSION['name']."</li>";
+                        
+                    }else{
+                        echo "<li><a href='register/registerform.php'><span class='glyphicon glyphicon-user'></span> Sign Up</a></li>
+                            <li><a href='login/loginform.php'><span class='glyphicon glyphicon-log-in'></span> Login</a></li>";
+                    }
+                ?>
+            </ul>
+            </div>
+        </nav>
+		</center><br>
 		<div align="center">
 			<input style="font-size: 25;" type="text" id="input" onkeyup="search()" placeholder="I'm looking for...">
 			<br><br>
