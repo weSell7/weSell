@@ -84,7 +84,7 @@
             <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="homepage.php"><label style="font-size: 50px;">weSell</label></a>
+                <a class="navbar-brand" href="#"><label style="font-size: 50px;">weSell</label></a>
             </div>
             <br>
             <input style="font-size: 20;" type="text" id="input" onkeyup="search()" placeholder="I'm looking for...">
