@@ -92,7 +92,6 @@
                     <!--input style="font-size: 25;" type="text" id="input" onkeyup="search()" placeholder="I'm looking for..."-->
                     <input type="text" class="form-control" id="input" onkeyup="search()" placeholder="I'm looking for...">
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
             </form>
 
 
