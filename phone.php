@@ -67,7 +67,7 @@
             <div align="right">
 		        <script type="text/javascript"> 
                     var date = new Date();
-                    document.writeln(date.toDateString());
+                    document.writeln("<label style='color: white;'>"+date.toDateString()+"</label>");
 		        </script>
 		    </div>
             <ul class="nav navbar-nav ">
