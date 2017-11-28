@@ -54,7 +54,7 @@
 			<img src="logo\logo3.jpg">
 		</a> 
 
-		<center><h1>Computer Components</h1></center>
+        <center><h1><b>Computer Components</b></h1></center>
 
 		<br>
 		<center>

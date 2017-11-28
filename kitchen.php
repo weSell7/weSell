@@ -47,7 +47,7 @@
 			<img src="logo\logo3.jpg">
 		</a> 
 
-		<center><h1>Kitchen</h1></center>
+		<center><h1><b>Kitchen</b></h1></center>
 
 		<br>
 		<center>

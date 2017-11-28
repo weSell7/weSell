@@ -26,7 +26,7 @@
 
         <br><br><br><br><br><br><br>    
 		
-		<center><h1>Welcome To weSell</h1></center>
+        <center><h1><b>Welcome To weSell</b></h1></center>
         
 		<center>
             
@@ -202,6 +202,11 @@
         </table></center></div><br>
         
         <!--Box-->
+        <style>
+            a:hover {
+                background-color: yellow;
+            }
+        </style>
         <center>
         <div class="container">    
             <div class="row">

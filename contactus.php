@@ -61,7 +61,7 @@
 			<img src="logo\logo3.jpg">
 		</a> 
 
-		<center><h1>Contact Us</h1></center>
+    <center><h1><b>Contact Us</b></h1></center>
 
 		<br>
 		<center>

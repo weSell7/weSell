@@ -49,7 +49,7 @@
 		</a> 
 		
 
-		<center><h1>Fashion</h1></center>
+    <center><h1><b>Fashion</b></h1></center>
 		
 
 		<br>

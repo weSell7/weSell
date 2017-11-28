@@ -47,7 +47,7 @@
 			<img src="logo\logo3.jpg">
 		</a> 
 
-		<center><h1>Phone</h1></center>
+    <center><h1><b>Phone</b></h1></center>
 
 		<br>
 		<center>
