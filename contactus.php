@@ -141,7 +141,7 @@
 	<center>
 	<script type="text/javascript" src="form.js"></script>
 
-	<form name="form1" id="form1" method="POST" action="complaintform.php" style="background: white;">
+	<form name="form1" id="form1" method="POST" action="complaintform.php" style="background: background.png;">
 		<h2>Complaint Form</h2>
 		<label>Simply mention your name and enter your e-mail, we(Sell) will response as soon as possible.</label><br>
 		<label style="color: red;" id="helpText"></label>

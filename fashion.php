@@ -19,6 +19,12 @@
     			display: inline;
     		}
     </style>
+    
+    <!--hover change text size-->
+    <style>
+            a:hover, a:active {font-size: 110%;}
+    </style>
+        
     <script type="text/javascript">
     	function search() {
 
