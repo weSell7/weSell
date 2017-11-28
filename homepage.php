@@ -21,6 +21,12 @@
     				color: blue;
     			}
     	</style>
+        
+        <!--hover change text size-->
+        <style>
+            a:hover, a:active {font-size: 110%;}
+        </style>
+        
 	</head>
 	<body style="background-image: url('img/background2.jpg');">
 
