@@ -122,7 +122,7 @@
 			</form>
 		</div>
 
-		<center><h1><text><text style='color: red;'> SALE!! Up to 30% Discount on selected products! </text></h1></center>;
+    <center><h1><marquee><text style='color: red;'> SALE!! Up to 30% Discount on selected products! </text></marquee></h1></center>;
 		
 		<center>
 			<table id="table1" style="border: solid; width: 80%; height: 70%;">
@@ -164,7 +164,7 @@
   							}
 
 							
-						</script></text>
+						</script>
 						<br><br>
 						<button>Add to Cart</button> <button>Buy Now</button>
 					
@@ -187,7 +187,7 @@
   							}
 
 							
-						</script></text>
+						</script>
 						<br><br>
 						<button>Add to Cart</button> <button>Buy Now</button>
 					
@@ -243,7 +243,7 @@
   							}
 
 							
-						</script></text>
+						</script>
 						<br><br>
 						<button>Add to Cart</button> <button>Buy Now</button>
 					
@@ -277,7 +277,7 @@
   							}
 
 							
-						</script></text>
+						</script>
 						<br><br>
 						<button>Add to Cart</button> <button>Buy Now</button>
 					

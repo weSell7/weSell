@@ -86,9 +86,14 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="#"><label style="font-size: 50px;">weSell</label></a>
             </div>
-            <br>
-            <input style="font-size: 20;" type="text" id="input" onkeyup="search()" placeholder="I'm looking for...">
-			<br>
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <!--input style="font-size: 25;" type="text" id="input" onkeyup="search()" placeholder="I'm looking for..."-->
+                    <input type="text" class="form-control" id="input" onkeyup="search()" placeholder="I'm looking for...">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+
 			
 
             <div align="right">
@@ -143,8 +148,8 @@
 
 		</div>
 
-		<center><h1><text><marquee><text style='color: red;'> SALE!! Up to 30% Discount on selected products! </text></marquee></h1>
-		</center>;
+		<center><h1><marquee><text style='color: red;'> SALE!! Up to 30% Discount on selected products! </text></marquee></h1>
+		</center>
 		<center>
 			<table id="table1" style="border: solid; width: 75%; height: 70%;" >
 				
@@ -159,7 +164,7 @@
 							function discount(x,y){
   								return Math.round(x*y).toFixed(2);
   							}
-						</script></text><br><br><button>Add to Cart</button> <button>Buy Now</button>
+						</script><br><br><button>Add to Cart</button> <button>Buy Now</button>
 					</td>
 			</tr>
 
@@ -177,7 +182,7 @@
   							}
 							
 							
-						</script></text><br><br>
+						</script><br><br>
 					<button>Add to Cart</button> <button>Buy Now</button>
 				</td>
 			</tr>
@@ -221,7 +226,7 @@
   							}
 							
 							
-							</script></text>
+							</script>
 						<br><br>
 						<button>Add to Cart</button> <button>Buy Now</button>
 				</td>
