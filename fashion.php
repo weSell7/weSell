@@ -131,7 +131,7 @@
 				<td>
 					<a href="Fshn\tshirt1.html"><img src="fashion\shirt1.jpeg"></a>
 					<a href="Fshn\tshirt1.html"><br>
-					Men's EcoSmart Soft Jersey Fabric Short Sleeve T-shirt</a><br>
+					Men's EcoSmart Short Sleeve T-shirt</a><br>
 					<text>RM69.00 </text><br><br>
 					<button>Add to Cart</button> <button>Buy Now</button>
 				</td>

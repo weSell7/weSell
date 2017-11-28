@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <!--hover change text size-->
     <style>
@@ -120,7 +121,7 @@
     </style>
     <div class="row">
         <div class="column">
-            <h2>HQ Location Address: </h2>
+            <h2><span class="glyphicon glyphicon-globe"></span>HQ Location Address: </h2>
         <center>
             <label>weSell Group</label><br>
 	       <label>Jalan Tuaran,</label><br>
@@ -131,7 +132,7 @@
         </center>
         </div>
         <div class="column">
-            <h2>Person in charge: </h2>
+            <h2><span class="glyphicon glyphicon-user"></span>Person in charge:</h2>
         <center>
 	       <label>Mr.Maximalian / Mr.Carlson</label><br>
 	       <label>Tel: 010-5661553 / 013-8773991</label><br>
@@ -142,7 +143,7 @@
 
 </div>
 
-	<h1>Customer Care: </h1>
+	<h1><span class="glyphicon glyphicon-heart"></span>Customer Care: </h1>
 	<center>
 	<script type="text/javascript" src="form.js"></script>
 
