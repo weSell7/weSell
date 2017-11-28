@@ -66,6 +66,14 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="#"><label style="font-size: 50px;">weSell</label></a>
             </div>
+                
+            <div>
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="input" onkeyup="search()" placeholder="I'm looking for...">
+                </div>
+            </form>
+                
             <div align="right">
 		        <script type="text/javascript"> 
                     var date = new Date();
