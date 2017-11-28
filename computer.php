@@ -83,8 +83,8 @@
 			    var date = new Date();
 			    document.writeln("<label style='color: white;'>"+date.toDateString()+"</label>");
 		    </script>
-                </div>
-                </div>
+            </div>
+            </div>
             
            
 
