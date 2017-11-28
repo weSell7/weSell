@@ -96,8 +96,8 @@
                 <?php 
                 
                     if(isset($_SESSION['name'])){
-                        echo "<li>Hello, ";
-				        echo $_SESSION['name']."</li>";
+                        echo "<label><li style='font-size: 14px; color: white;'>Hello, ";
+				        echo $_SESSION['name'].". <a href='includes/logout.php' action='includes/logout.php' method='POST'> Logout?</a></li></label>";
                         
                     }else{
                         echo "<li><a href='register/registerform.php'><span class='glyphicon glyphicon-user'></span> Sign Up</a></li>
