@@ -127,21 +127,21 @@
 
 	<form name="form1" id="form1" method="POST" action="complaintform.php" style="background: white;">
 		<h2>Complaint Form</h2>
-		<label>Simply mention your name and enter your e-mail, we(Sell) will response as soon as possible.</label><br><br>
-		<label style="color: red;" id="helpText"></label><br><br>
+		<label>Simply mention your name and enter your e-mail, we(Sell) will response as soon as possible.</label><br>
+		<label style="color: red;" id="helpText"></label>
 		<div>
 			<label>Name: </label>
-			<input type="text" id="pname" name="name" placeholder="Enter your name.." required>
+			<input type="text" id="pname" name="name" placeholder="Enter your name.." required><label style="color: red;">*</label>
 		</div>
 		<br>
 		<div>
 			<label>Email: </label>
-			<input type="text" id="email" name="email" placeholder="Enter your e-mail.." required>
+			<input type="text" id="email" name="email" placeholder="Enter your e-mail.." required><label style="color: red;">*</label>
 		</div>
 		<br>
 		<div>
 			<label>Comments: </label><br>
-			<textarea id="cbox" name="comment" rows="5" cols="40" placeholder="Any comments.." required></textarea>
+			<textarea id="cbox" name="comment" rows="5" cols="40" placeholder="Any comments.." required></textarea><label style="color: red;">*</label>
 		</div>
 		<br>
 		<div>
