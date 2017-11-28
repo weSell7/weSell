@@ -20,7 +20,7 @@
       
   </head>
   <body style="background-image: url('../img/background2.jpg');" id="demo">
-  	<!--a href="..\homepage.php"><img src="..\logo\logo3.jpg" /></a-->
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div style="background-color: #0D314B;"class="container-fluid">
         <div style="background-color: #0D314B;"class="navbar-header">
@@ -40,7 +40,7 @@
             </div>
         </div>
     </nav>
-    
+      
 	<div class="container">
 	  <div class="main">
 
@@ -61,6 +61,8 @@
 		</form>";
 	  		}
 	  	?>
+        
+          
 	  </div>
 	 </div>
  </body>
