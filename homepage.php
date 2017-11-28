@@ -37,7 +37,7 @@
 		<!--show the current date and time-->
 		<div align="right">
 
-		<p style="background: lightblue;">
+		<p style="background: lightblue;"><br><br>
 		<script type="text/javascript" style="background: white;"> 
 			var date = new Date();
 			document.writeln(date.toDateString());
@@ -55,7 +55,8 @@
                 <a class="navbar-brand" href="#"><label style="font-size: 50px;">weSell</label></a>
             </div>
             
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav ">
+            <ul class="nav nav-tabs nav-justified">
                 <li class="active"><a href="homepage.php">Home</a></li>
                 <li><a href="computer.php">Computer Components</a></li>
                 <li><a href="fashion.php">Fashions</a></li>
@@ -63,7 +64,7 @@
                 <li><a href="phone.php">Mobile</a></li>
                 <li><a href="contactus.php">Contact Us</a></li>
             </ul>
-                
+            </ul>    
             <ul class="nav navbar-nav navbar-right">
                 <?php 
                 
