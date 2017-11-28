@@ -25,7 +25,7 @@
 	<body style="background-image: url('img/background2.jpg');">
 		
 		
-        <br><br>
+        <br><br><br><br><br><br><br><br>
 		
 		<center><h1>Welcome To weSell</h1></center>
 
@@ -37,7 +37,7 @@
 		<!--show the current date and time-->
 		<div align="right">
 
-		<p style="background: lightblue;"><br><br>
+		<p style="background: lightblue;">
 		<script type="text/javascript" style="background: white;"> 
 			var date = new Date();
 			document.writeln(date.toDateString());
