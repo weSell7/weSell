@@ -51,15 +51,6 @@
 
 		<center><h1>Fashion</h1></center>
 		
-		<p style="background: lightblue;">
-			<?php 
-				if(isset($_SESSION['name'])){
-					echo "Hello, ";
-					echo $_SESSION['name'];
-					echo "<label>. Click here to <a href='includes/logout.php'>Logout</a> </label>";	
-				} 
-			?>	
-		</p>
 
 		<br>
 		<center>
