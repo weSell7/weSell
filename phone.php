@@ -105,10 +105,9 @@
             </ul>
             </div>
         </nav>
-		</center><br>
+		</center>
+            
 		<div align="center">
-			<input style="font-size: 25;" type="text" id="input" onkeyup="search()" placeholder="I'm looking for...">
-			<br><br>
 			<form method="POST" action="includes/filterMo.php">
 				<label style="font-size: 20	; font-weight: bold;">Sort by: </label>
 				<select name="option">
