@@ -60,7 +60,7 @@
             <nav class="navbar navbar-inverse navbar-fixed-top">
             <div style="background-color: #0D314B ;" class="container-fluid">
             <div style="background-color: #0D314B ;" class="navbar-header">
-                <a class="navbar-brand" href="#"><label style="font-size: 50px;">weSell</label></a>
+                <a class="navbar-brand" href="#"><label style="font-size: 50px;">weSell</label><span class="glyphicon glyphicon-shopping-cart"></span></a>
             </div>
                 
             <div>
