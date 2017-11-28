@@ -86,7 +86,7 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="#"><label style="font-size: 50px;">weSell</label></a>
             </div>
-<<<<<<< HEAD
+
             <form class="navbar-form navbar-left">
                 <div class="form-group">
                     <!--input style="font-size: 25;" type="text" id="input" onkeyup="search()" placeholder="I'm looking for..."-->
@@ -95,10 +95,7 @@
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
 
-			
 
-=======
->>>>>>> 690720c25e87c432fe134ab52ac49f0e584f929d
             <div align="right">
 		        <script type="text/javascript"> 
                     var date = new Date();
@@ -151,13 +148,10 @@
 
 		</div>
 
-<<<<<<< HEAD
+
 		<center><h1><marquee><text style='color: red;'> SALE!! Up to 30% Discount on selected products! </text></marquee></h1>
 		</center>
-=======
-		<center><h1><text><marquee><text style='color: red;'> SALE!! Up to 30% Discount on selected products! </text></marquee></h1>
-		</center>;
->>>>>>> 690720c25e87c432fe134ab52ac49f0e584f929d
+
 		<center>
 			<table id="table1" style="border: solid; width: 75%; height: 70%;" >
 				

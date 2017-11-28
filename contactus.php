@@ -147,7 +147,6 @@
 		<h2>Complaint Form</h2>
 		<label>Simply mention your name and enter your e-mail, we(Sell) will response as soon as possible.</label><br><br>
 		<label style="color: red;" id="helpText"></label><br><br>
-	<form id="form1" name="form1" action="">
 		<div>
 			<label>Name: </label>
 			<input type="text" id="pname" name="name" placeholder="Enter your name.." required>

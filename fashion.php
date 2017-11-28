@@ -122,11 +122,9 @@
 			</form>
 		</div>
 
-<<<<<<< HEAD
+
     <center><h1><marquee><text style='color: red;'> SALE!! Up to 30% Discount on selected products! </text></marquee></h1></center>;
-=======
-		<center><h1><text><text style='color: red;'> SALE!! Up to 30% Discount on selected products! </text></h1></center>;
->>>>>>> 690720c25e87c432fe134ab52ac49f0e584f929d
+
 		
 		<center>
 			<table id="table1" style="border: solid; width: 80%; height: 70%;">

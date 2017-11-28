@@ -25,7 +25,7 @@
 	<body style="background-image: url('img/background2.jpg');">
 		
 		
-        <br><br>
+        <br><br><br><br><br><br><br><br>    
 		
 		<center><h1>Welcome To weSell</h1></center>
 
