@@ -138,7 +138,7 @@
 
 		</div>
 
-		<center><h1><text><marquee><text style='color: red;'> SALE!! Up to 30% Discount on selected products! </text></marquee></h1>
+		<center><h1><marquee><text style='color: red;'> SALE!! Up to 30% Discount on selected products! </text></marquee></h1>
 		</center>;
 		<center>
 			<table id="table1" style="border: solid; width: 75%; height: 70%;" >
