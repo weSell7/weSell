@@ -54,7 +54,12 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="#"><label style="font-size: 50px;">weSell</label></a>
             </div>
-            
+            <div align="right">
+		        <script type="text/javascript"> 
+                    var date = new Date();
+                    document.writeln(date.toDateString());
+		        </script>
+		    </div>
             <ul class="nav navbar-nav ">
             <ul class="nav nav-tabs nav-justified">
                 <li class="active"><a href="homepage.php">Home</a></li>
