@@ -103,24 +103,40 @@
         </nav>
 		</center><br><br>
 
-<div style="background-color: lightblue;">		
+<div style="background-color: lightblue;">
+    <style>
+        /* Create three equal columns that floats next to each other */
+        .column {
+        float: left;
+        width: 50%;
+        padding: 15px;
+        }
 
-	<label style="font-weight: bold; font-size: 20;">HQ Location Address:</label><br><br>
-	<label>weSell Group</label><br>
-	<label>Jalan Tuaran,</label><br>
-	<label>Lorong Bun Inanam,</label><br>
-	<label>Wisma K,</label><br>
-	<label>88450 Kota Kinabalu,</label><br>
-	<label>Sabah, MALAYSIA</label><br><br>
-
-	<label style="font-weight: bold; font-size: 20;">Person in Charge:</label><br>
-	<label>Mr.Maximalian / Mr.Carlson</label><br>
-	<label>Tel: 010-5661553 / 013-8773991</label><br>
-	<label>Email: max@wesell.com.my / carl@wesell.com.my</label>
+    </style>
+    <div class="row">
+        <div class="column">
+            <h2>HQ Location Address: </h2>
+        <center>
+            <label>weSell Group</label><br>
+	       <label>Jalan Tuaran,</label><br>
+	       <label>Lorong Bun Inanam,</label><br>
+	       <label>Wisma K,</label><br>
+	       <label>88450 Kota Kinabalu,</label><br>
+	       <label>Sabah, MALAYSIA</label><br><br>
+        </center>
+        </div>
+        <div class="column">
+            <h2>Person in charge: </h2>
+        <center>
+	       <label>Mr.Maximalian / Mr.Carlson</label><br>
+	       <label>Tel: 010-5661553 / 013-8773991</label><br>
+	       <label>Email: max@wesell.com.my / carl@wesell.com.my</label>
+        </center>
+        </div>
+    </div>
 
 </div>
 
-	
 	<h1>Customer Care: </h1>
 	<center>
 	<script type="text/javascript" src="form.js"></script>
