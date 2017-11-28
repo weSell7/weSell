@@ -89,18 +89,10 @@
 
             <form class="navbar-form navbar-left">
                 <div class="form-group">
-                    <!--input style="font-size: 25;" type="text" id="input" onkeyup="search()" placeholder="I'm looking for..."-->
                     <input type="text" class="form-control" id="input" onkeyup="search()" placeholder="I'm looking for...">
                 </div>
             </form>
 
-
-            <div align="right">
-		        <script type="text/javascript"> 
-                    var date = new Date();
-                    document.writeln(date.toDateString());
-		        </script>
-		    </div>
             <ul class="nav navbar-nav ">
             <ul class="nav nav-tabs nav-justified">
                 <li><a href="homepage.php">Home</a></li>
@@ -127,13 +119,9 @@
             </div>
         </nav>
 		</center>
-		<br>
 		
-		<!--Textbox for search()-->
+		<!--Filter-->
 		<div align="center">
-			<!--label style="font-size: 20; font-weight: bold;">Search: </label-->
-			<input style="font-size: 25;" type="text" id="input" onkeyup="search()" placeholder="I'm looking for...">
-			<br><br>
 			<form method="POST" action="includes/filterCom.php">
 				<label style="font-size: 20	; font-weight: bold;">Sort by: </label>
 				<select name="option">
