@@ -65,8 +65,57 @@
 				                echo $_SESSION['name'].". <a href='includes/logout.php' action='includes/logout.php' method='POST'> Logout?</a></li></label>";
                         
                     }else{
-                        echo "<li><a href='register/registerform.php'><span class='glyphicon glyphicon-user'></span> Sign Up</a></li>
-                            <li><a href='login/loginform.php'><span class='glyphicon glyphicon-log-in'></span> Login</a></li>";
+                        echo "
+
+                    <li class='dropdown'>
+                        <a href='http://phpoll.com/register' class='dropdown-toggle' data-toggle='dropdown'><span class='glyphicon glyphicon-user'></span> Sign Up</a>
+                        <ul class='dropdown-menu dropdown-lr animated flipInX' role='menu'>
+                            <div class='col-lg-12'>
+                            <div class='text-center'><h3><b>Register</b></h3></div>
+                                <form id='ajax-register-form' action='http://phpoll.com/register/process' method='post' role='form' autocomplete='off'>
+                                <div class='form-group'>
+                                        <input type='text' name='username' id='username' tabindex='1' class='form-control' placeholder='Username' value=''>
+                                </div>
+                                <div class='form-group'>
+                                        <input type='email' name='email' id='email' tabindex='1' class='form-control' placeholder='Email Address' value=''>
+                                </div>
+                                <div class='form-group'>
+                                        <input type='password' name='password' id='password' tabindex='2' class='form-control' placeholder='Password'>
+                                </div>
+                                <div class='form-group'>
+                                    <input type='password' name='confirm-password' id='confirm-password' tabindex='2' class='form-control' placeholder='Confirm Password'>
+                                </div>
+                                <div class='form-group'>
+                                    <div class='row'>
+                                    <div class='col-xs-6 col-xs-offset-3'>
+                                        <input type='submit' name='register-submit' id='register-submit' tabindex='4' class='form-control btn btn-info' value='Register Now'>
+                                    </div>
+                                    </div>
+                                </div>
+                                    <input type='hidden' class='hide' name='token' id='token' value='7c6f19960d63f53fcd05c3e0cbc434c0'>
+                                </form>
+                            </div>
+                        </ul>
+                    </li>
+
+                            
+                    <li class='dropdown'>
+                        <a class='dropdown-toggle' data-toggle='dropdown' href='#'><span class='glyphicon glyphicon-log-in'></span> Login</a>
+                        <div class='dropdown-menu'>
+                        <form id='formLogin' class='form container-fluid' method='POST' action='includes/login.php'>
+                        <div class='form-group'>
+                            <label>Username :</label>
+                            <input type='text' class='form-control' name='username' id='username' required>
+                        </div>
+                        <div class='form-group'>
+                            <label for='pwd'>Password:</label>
+                            <input type='password' class='form-control' name='password' id='password' required>
+                        </div>
+                            <button type='submit' id='submit' class='btn btn-block'>Login</button>
+                            <button type='reset' id='reset' class='btn btn-block'>Clear</button>
+                        </form>
+                        </div>
+                    </li>";
                     }
                 ?>
             </ul>
