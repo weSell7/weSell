@@ -97,8 +97,26 @@
 				        echo $_SESSION['name'].". <a href='includes/logout.php' action='includes/logout.php' method='POST'> Logout?</a></li></label>";
                         
                     }else{
-                        echo "<li><a href='register/registerform.php'><span class='glyphicon glyphicon-user'></span> Sign Up</a></li>
-                            <li><a href='login/loginform.php'><span class='glyphicon glyphicon-log-in'></span> Login</a></li>";
+                        echo "
+
+                    <li><a href='register/registerform.php'><span class='glyphicon glyphicon-user'></span> Sign Up</a></li>
+                            
+                    <li class='dropdown'>
+                        <a class='dropdown-toggle' data-toggle='dropdown' href='#'><span class='glyphicon glyphicon-log-in'></span> Login</a>
+                        <div class='dropdown-menu'>
+                        <form id='formLogin' class='form container-fluid' method='POST' action='includes/login.php'>
+                        <div class='form-group'>
+                            <label>Username :</label>
+                            <input type='text' class='form-control' name='username' id='username' required>
+                        </div>
+                        <div class='form-group'>
+                            <label for='pwd'>Password:</label>
+                            <input type='password' class='form-control' name='password' id='password' required>
+                        </div>
+                            <button type='submit' id='submit' class='btn btn-block'>Login</button>
+                        </form>
+                        </div>
+                    </li>";
                     }
                 ?>
             </ul>
