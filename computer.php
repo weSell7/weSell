@@ -25,6 +25,8 @@
     			display: inline;
     		}
     	</style>
+
+    	<!--Search for items name in table row-->
     	<script type="text/javascript">
     	function search() {
         	// Declare variables 
@@ -48,7 +50,7 @@
     	</script>
         
         <!--hover change text size-->
-        <style>
+        <style type="text/css">
             a:hover, a:active {font-size: 110%;}
         </style>
         
@@ -77,7 +79,7 @@
                 </div>
             </form>
             
-            <!--Time-->
+            <!--Show the current date-->
             <div align="right">
             <script type="text/javascript">    
 			    var date = new Date();
@@ -103,9 +105,12 @@
                 
                     if(isset($_SESSION['name'])){
                         echo "<label><li style='font-size: 14px; color: white;'>Hello, ";
-				        echo $_SESSION['name'].". <a href='includes/logout.php' action='includes/logout.php' method='POST'> Logout?</a></li></label>";
+                        echo "<a href='includes/userinfo.php' action='includes/userinfo.php' method='POST' style='text-decoration: none;' ";
+				        echo "</a >". $_SESSION['name']. " . " ;
+				        echo "<a href='includes/logout.php' action='includes/logout.php' method='POST'> Logout?</a></li></label>";
                         
                     }else{
+                    	
                         echo "
 
                     <li><a href='register/registerform.php'><span class='glyphicon glyphicon-user'></span> Sign Up</a></li>
@@ -184,8 +189,7 @@
 							function discount(x,y){
   								return Math.round(x*y);
   							}
-							
-							
+
 						</script><br><br>
 					<button>Add to Cart</button> <button>Buy Now</button>
 				</td>
@@ -228,7 +232,6 @@
 							function discount(x,y){
   							return Math.round(x*y);
   							}
-							
 							
 							</script>
 						<br><br>

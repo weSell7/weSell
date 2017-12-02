@@ -97,7 +97,9 @@
                 
                     if(isset($_SESSION['name'])){
                         echo "<label><li style='font-size: 14px; color: white;'>Hello, ";
-				        echo $_SESSION['name'].". <a href='includes/logout.php' action='includes/logout.php' method='POST'> Logout?</a></li></label>";
+                        echo "<a href='includes/userinfo.php' action='includes/userinfo.php' method='POST' style='text-decoration: none;' ";
+                        echo "</a >". $_SESSION['name']. " . " ;
+                        echo "<a href='includes/logout.php' action='includes/logout.php' method='POST'> Logout?</a></li></label>";
                         
                     }else{
                         echo "

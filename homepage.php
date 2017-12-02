@@ -62,7 +62,9 @@
                 
                     if(isset($_SESSION['name'])){
                         echo "<label><li style='font-size: 14px; color: white;'>Hello, ";
-				        echo $_SESSION['name'].". <a href='includes/logout.php' action='includes/logout.php' method='POST'> Logout?</a></li></label>";
+                        echo "<a href='includes/userinfo.php' action='includes/userinfo.php' method='POST' style='text-decoration: none;' ";
+                        echo "</a >". $_SESSION['name']. " . " ;
+                        echo "<a href='includes/logout.php' action='includes/logout.php' method='POST'> Logout?</a></li></label>";
                         
                     }else{
 
@@ -100,79 +102,79 @@
 		<div align="left">
 		<center>
         <table id="table1" style="border: blue ; width: 60%; height: 50%;">
-        <tr>
-        <td>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-		* {box-sizing:border-box}
-		body {font-family: Verdana,sans-serif;}
-		.mySlides {display:none}
+            <tr>
+                <td>
+		          <meta name="viewport" content="width=device-width, initial-scale=1">
+                  <style type="text/css">
+		              * {box-sizing:border-box}
+		              body {font-family: Verdana,sans-serif;}
+		              .mySlides {display:none}
 
-		/* Slideshow container */
-        .slideshow-container {
-        max-width: 1000px;
-        position: relative;
-        margin: auto;
-        }
+		              /* Slideshow container */
+                      .slideshow-container {
+                            max-width: 1000px;
+                            position: relative;
+                            margin: auto;
+                        }
 
-        /* Caption text */
-        .text {
-        color: #f2f2f2;
-        font-size: 15px;
-        padding: 8px 12px;
-        position: absolute;
-        bottom: 8px;
-        width: 100%;
-        text-align: center;
-        }
+                     /* Caption text */
+                    .text {
+                        color: #f2f2f2;
+                        font-size: 15px;
+                        padding: 8px 12px;
+                        position: absolute;
+                        bottom: 8px;
+                        width: 100%;
+                        text-align: center;
+                        }
 
-        /* Number text (1/3 etc) */
-        .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-        }
+                    /* Number text (1/3 etc) */
+                    .numbertext {
+                        color: #f2f2f2;
+                        font-size: 12px;
+                        padding: 8px 12px;
+                        position: absolute;
+                        top: 0;
+                        }
 
-        /* The dots/bullets/indicators */
-        .dot {
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-        }
+                    /* The dots/bullets/indicators */
+                    .dot {
+                        height: 15px;
+                        width: 15px;
+                        margin: 0 2px;
+                        background-color: #bbb;
+                        border-radius: 50%;
+                        display: inline-block;
+                        transition: background-color 0.6s ease;
+                    }
 
-        .active {
-        background-color: #717171;
-        }
+                    .active {
+                        background-color: #717171;
+                    }
 
-        /* Fading animation */
-        .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-        }
+                    /* Fading animation */
+                    .fade {
+                        -webkit-animation-name: fade;
+                        -webkit-animation-duration: 1.5s;
+                        animation-name: fade;
+                        animation-duration: 1.5s;
+                    }
 
-        @-webkit-keyframes fade {
-        from {opacity: .4} 
-        to {opacity: 1}
-        }
+                    @-webkit-keyframes fade {
+                    from {opacity: .4} 
+                    to {opacity: 1}
+                    }
 
-        @keyframes fade {
-        from {opacity: .4} 
-        to {opacity: 1}
-        }
+                    @keyframes fade {
+                    from {opacity: .4} 
+                    to {opacity: 1}
+                    }
 
-        /* On smaller screens, decrease text size */
-        @media only screen and (max-width: 300px) {
-        .text {font-size: 11px}
-        }
-        </style>
+                    /* On smaller screens, decrease text size */
+                    @media only screen and (max-width: 300px) {
+                    .text {font-size: 11px}
+                    }
+            </style>
 
         <div class="slideshow-container"> 
             <div class="mySlides fade">
@@ -227,11 +229,12 @@
         </table></center></div><br>
         
         <!--Box-->
-        <style>
+        <style type="text/css">
             a:hover {
                 background-color: yellow;
             }
         </style>
+
         <center>
         <div class="container">    
             <div class="row">
