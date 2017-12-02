@@ -165,6 +165,8 @@
 
 	<h1><span class="glyphicon glyphicon-heart"></span>Customer Care: </h1>
 	<center>
+
+    <div style='background-color: rgba(129, 165, 233, 0.4);'>
 	<script type="text/javascript" src="form.js"></script>
 
 	<form name="form1" id="form1" method="POST" action="complaintform.php" style="background: background.png;">
@@ -191,6 +193,7 @@
 			<input type="reset" value="Clear" id="reset">
 		</div>
 	</form>
+    </div>
 	</center>
 	<p>&copy; weSell 2017</p>
 	</body>

@@ -42,33 +42,41 @@
 			if(isset($_SESSION['name'])){
 				echo "You are already logged in!";
 			}else{
-				echo "<h1>Registration</h1>
+				echo "<div style='background-color: rgba(129, 165, 233, 0.4);'>
+				<h1>Registration</h1>
 			<form method='POST' action='register.php'>
 			<p><label>Username: </label>
 				<input type='text' name='username' required>
+				<label style='color: red;'>*</label>
 			</p>
 			<p><label>Password: </label>
 				<input type='password' name='password' required>
+				<label style='color: red;'>*</label>
 			</p>
 			<p><label>Name: </label>
 				<input type='text' name='name' required>
+				<label style='color: red;'>*</label>
 			</p>
 			<p><label>Address: </label>
 				<textarea required name='address'></textarea>
+				<label style='color: red;'>*</label>
 			</p>
 			<p><label>Zip Code: </label>
 				<input type='text' name='zcode' required>
+				<label style='color: red;'>*</label>
 			</p>
 			<p><label>E-mail: </label>
 				<input type='text' name='email' required>
+				<label style='color: red;'>*</label>
 			</p>
 			<p><label>Gender: </label>
 
 				<label>Male</label><input type='radio' name='gender' value='1' checked required> 
 				<label>Female</label><input type='radio' name='gender' value='2'>
+				<label style='color: red;'>*</label>
 			</p>
 			<p><input type='submit' name='submit'> <input type='reset' name='reset' value='Clear'></p>
-		</form>";
+		</form></div>";
 			}
 
 
