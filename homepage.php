@@ -262,6 +262,7 @@
             </div>
         </div><br>
         </center>
+        
 
 		<p>&copy; weSell 2017</p>
 	</body>
