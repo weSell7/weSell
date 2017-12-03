@@ -55,7 +55,8 @@
 			<p><b>Address : </b>".$row['address']."</p>
 			<p><b>Gender : </b>".$row['gender']."</p>";
 
-		echo "<br><a href='../computer.php'><input type='submit' name='back' value='Back'></a></body> ";
+		echo "<br><a href='../computer.php'><input type='submit' name='back' value='Back'></a></body>  
+				<a href='../register/editForm.php'><input type='submit' name='edit' value='Edit'></a>";
 
 	}
 
