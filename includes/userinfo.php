@@ -9,7 +9,7 @@
 
 	$sql = "SELECT info.name, info.email, info.username, info.address, gender.gender 
 			FROM info INNER JOIN gender ON info.gender = gender.id
-			WHERE info.name = '$name' 
+			WHERE name = '$name' 
 			" ;
 
 	$result = mysqli_query($db, $sql);

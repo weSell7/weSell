@@ -3,16 +3,20 @@
 	
 	$db = new mysqli('localhost','root','','wsdb');
 
-	if(isset($_GET['name'])){
-		$name = $_GET['name'];
+	if(isset($_SESSION['name'])){
+		$n = $_SESSION['name'];
+	}
+
+	if(isset($_POST['name'])){
+		$name = $_POST['name'];
 	}
 
 	if(isset($_POST['email'])){
 		$email = $_POST['email'];
 	}
 
-	if(isset($_GET['username'])){
-		$username = $_GET['username'];
+	if(isset($_POST['username'])){
+		$username = $_POST['username'];
 	}
 
 	if(isset($_POST['address'])){
@@ -21,7 +25,7 @@
 
 	$sql = "UPDATE info 
 			SET name = '$name', email = '$email', username = '$username', address = '$address' 
-			WHERE name = '$name' ";
+			WHERE name = '$n' ";
 
 	$result = mysqli_query($db,$sql);
 

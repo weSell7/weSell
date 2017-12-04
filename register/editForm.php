@@ -57,20 +57,20 @@
 
         <form action='../includes/editinfo.php' method='POST'>
             <p><label>Name: </label>
-                <input type='text' name='name' value=' " .$row['name']. " ' disabled>
+                <input type='text' name='name' value='".$row['name']."' >
             </p>
 
             <p><label>E-mail: </label>
-                <input type='text' name='email' value=' ".$row['email']." ' required>
+                <input type='text' name='email' value='".$row['email']."' required>
                 <label style='color: red;'>*</label>
             </p>
 
             <p><label>Username: </label>
-                <input type='text' name='username' value=' ".$row['username']." ' disabled>
+                <input type='text' name='username' value='".$row['username']."' >
             </p>
 
             <p><label>Address: </label>
-                <textarea required name='address' value=' ".$row['address']." '></textarea>
+                <textarea required name='address' value='".$row['address']."'></textarea>
                 <label style='color: red;'>*</label>
             </p>
 
