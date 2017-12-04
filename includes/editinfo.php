@@ -32,7 +32,7 @@
 	if(!$result){
 		echo "Not complete";
 	}else{
-		header("Location: ..\homepage.php");
+		header("Location: userinfo.php");
 	}
 
 ?>
