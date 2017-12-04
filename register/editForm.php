@@ -57,7 +57,7 @@
 
         <form action='../includes/editinfo.php' method='POST'>
             <p><label>Name: </label>
-                <input type='text' name='name' value='".$row['name']."' >
+                <input type='text' name='name' value='".$row['name']."' readonly='readonly'  >
             </p>
 
             <p><label>E-mail: </label>
@@ -67,6 +67,7 @@
 
             <p><label>Username: </label>
                 <input type='text' name='username' value='".$row['username']."' >
+                <label style='color: red;'>*</label>
             </p>
 
             <p><label>Address: </label>

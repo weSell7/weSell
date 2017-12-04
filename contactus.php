@@ -169,7 +169,7 @@
     <div style='background-color: rgba(129, 165, 233, 0.4);'>
 	<script type="text/javascript" src="form.js"></script>
 
-	<form name="form1" id="form1" method="POST" action="complaintform.php" style="background: background.png;">
+	<form name="form1" id="form1" method="POST" action="includes/complaintform.php" style="background: background.png;">
 		<h2>Complaint Form</h2>
 		<label>Simply mention your name and enter your e-mail, we(Sell) will response as soon as possible.</label><br>
 		<label style="color: red;" id="helpText"></label>

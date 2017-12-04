@@ -17,5 +17,8 @@
 
 	$result = mysqli_query($db, $sql);
 
-	header("Location: contactus.html");
+	if($result){
+		header("Location: ../contactus.php");
+	}
+
 ?>
